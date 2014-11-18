@@ -1,0 +1,61 @@
+body{
+		background-color: #837258;
+/*fonts credited to cssfontstack.com*/
+		font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+		font-size: 1.517em; /* 15px golden*/
+		line-height: 1.517em;
+}
+ul{
+		list-style: none;
+		padding-left: 0;
+}
+ul.experience{
+		list-style: none;
+		padding-left: 0;
+}
+div.name{
+		background-image: url('rich.jpg');
+		background-position: 45% 15%;
+		width: 100%;
+		font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+		height: 400px;
+		text-align: center;
+		padding: 2px 0 1px 0;
+}
+div.subtitle{
+		background-color: beige;
+		width: 100%;
+		position: relative;
+		margin: 0em 0em 0em 0em;
+		font-style: italic;
+}
+div.connectstrip{
+		position: relative;
+		background-color: #5E7D7E;
+		width: 100%;
+		display: inline-block;
+		color: white;
+}
+div.container{
+		position: relative;
+		background-color: beige;
+		width: 100%;
+		display: inline-block;
+		margin: 0em 0em 0em 0em;
+}
+img.social{
+		height:44.035px; 
+		width:44.035px;
+		margin: 15px 15px 0 0;
+		float: left;
+}
+img.email{
+		height:60px; 
+		width:60px;
+		margin: 10px 15px 0 0;
+		float: left;
+}
+h1{
+		background-color:beige;
+		height: 1.618em;
+}
