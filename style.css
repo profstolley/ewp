@@ -1,43 +1,59 @@
 @media (min-width: 0em){
 body{
-	background-color: beige;
-	background-image: url('rich.jpg');
-	background-position: 45% -25%;
-	background-repeat: no-repeat;
+	background-color: #7F462C;
 	font-family: sans-serif;
 	height: 400px;
 	text-align: center;
 	padding: 2px 0 1px 0;
-}-
+}
 li{
 	list-style-type:none;
 }
-.navigation{
+.navigation,.eml,.lkd{
 	display: inline-block;
-	background-color: #57F;
-	color: #000;
+	background-color: #2D6580;
+	color: white;
 	list-style-type:none;
+	font-size:26px;
+	padding: 0.5em 0.5em 0.5em 0.5em;
 }
 #header{
-	width: 32em;
-	text-align: left;
-	padding: 0em 0em 0em 0em;
+	width: 15em;
 }
 h1{
 	text-decoration: none;
-	color: black;
+	color: white;
+}
+h2{
+	text-decoration: none;
+	color: #7F462C;
 }
 a{
 	text-decoration: none;
+	color: white;
 }
 aside{
 	opacity: 0.8;
 	font-size: 24px;
-	background-color: #806517;
-	width: 16em;
+	background-color: #807E2D;
+	width: 11em;
 	height: 8em;
 	float: left;
-	padding: 4em 0em 0em 0em;
+	padding: 2em 1em 0em 1em;
+}
+#profilepic{
+	float:left;
+	height: 13.20325em;
+	width: 23.46875em;
+	}
+#richname{
+	float: left;
+}
+#resume{
+background-color: beige;
+text-align: left;
+font-size: 1.517em; /* 15px golden*/
+		line-height: 1.517em;
 }
 }
 @media (min-width: 50em){
@@ -45,17 +61,19 @@ body{
 	font-family: sans-serif;
 	font-size: 1.618em; /* 15px golden*/
 	line-height: 1.517em;
-	background-image: url(rich.jpg);
-	background-repeat: no-repeat;
-	background-position: auto;
 }
 aside{
 	opacity: 0.8;
 	font-size: auto;
-	background-color: #806517;
+	background-color: #807E2D;
 	width: 16em;
 	height: 8em;
-	padding: 1em 0em 0em 0em;
+	padding: 2em 1em 0em 1em;	
+	}
+#profilepic{
+	float:left;
+	height: auto;
+	width: 50%;
 	}
 }
-}
+
