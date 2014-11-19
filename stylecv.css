@@ -1,0 +1,41 @@
+@media (min-width: 0em){
+body{
+	font-family: sans-serif;
+	background-repeat: no-repeat;
+	background-position: 40% 15%;
+}-
+li{
+	list-style-type:none;
+}
+#navigation{
+	display: inline-block;
+	background-color: #57F;
+	color: #000;
+	padding: .25em .5em;
+	list-style-type:none;
+}
+#header{
+	width: 32em;
+	text-align: left;
+	padding: 0em 0em 0em 0em;
+}
+h1{
+	color: white;
+	text-decoration: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+aside{
+	font-size: auto;
+	background-color: yellow;
+	color: green;
+	width: 23.46875em;
+}
+}
+@media (min-width: 50em){
+body{
+	background-color: beige;
+}
+}

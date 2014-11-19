@@ -1,35 +1,61 @@
 @media (min-width: 0em){
 body{
+	background-color: beige;
+	background-image: url('rich.jpg');
+	background-position: 45% -25%;
+	background-repeat: no-repeat;
 	font-family: sans-serif;
-}
+	height: 400px;
+	text-align: center;
+	padding: 2px 0 1px 0;
+}-
 li{
 	list-style-type:none;
 }
-img.profilepic{
-	height: 13.20325em;
-	width: 23.46875em;
-}
-a.navigation{
+.navigation{
 	display: inline-block;
 	background-color: #57F;
 	color: #000;
-	padding: .25em .5em;
-}
-#navigation{
-	list-style-type: none;
-	display: inline-block;
+	list-style-type:none;
 }
 #header{
-	background-color: black;
-	padding: 1em 1em 1em 1em;
+	width: 32em;
+	text-align: left;
+	padding: 0em 0em 0em 0em;
 }
 h1{
-	color: white;
+	text-decoration: none;
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+aside{
+	opacity: 0.8;
+	font-size: 24px;
+	background-color: #806517;
+	width: 16em;
+	height: 8em;
+	float: left;
+	padding: 4em 0em 0em 0em;
 }
 }
-
 @media (min-width: 50em){
 body{
-	background-color: yellow;
+	font-family: sans-serif;
+	font-size: 1.618em; /* 15px golden*/
+	line-height: 1.517em;
+	background-image: url(rich.jpg);
+	background-repeat: no-repeat;
+	background-position: auto;
+}
+aside{
+	opacity: 0.8;
+	font-size: auto;
+	background-color: #806517;
+	width: 16em;
+	height: 8em;
+	padding: 1em 0em 0em 0em;
+	}
 }
 }
