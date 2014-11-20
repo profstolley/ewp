@@ -51,6 +51,13 @@ aside{
 	text-align: left;
 	font-size: 0.7585em; /* 15px golden*/
 	line-height: 1.517em;
+	text-indent: 1.5em;
+}
+#resume li{
+	text-indent: 3em;
+}
+#resume h2{
+	text-indent: 1em;
 }
 @media (min-width: 50em){
 body{
