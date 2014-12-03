@@ -1,7 +1,10 @@
-body{
+/* Move background color to html so it fills the entire viewport; and remove a set height from body; that's just asking for trouble!*/
+
+html {
 	background-color: #7F462C;
+}
+body{
 	font-family: sans-serif;
-	height: 400px;
 	text-align: center;
 	padding: 2px 0 1px 0;
 }
@@ -53,22 +56,20 @@ aside{
 	text-align: left;
 	font-size: 0.7585em; /* 15px golden*/
 	line-height: 1.517em;
-	text-indent: 1.5em;
+	padding-left: 1.5em; /* Text-indent is inherited, and should really be used only with paragraphs and other blocks of text that get a first-line indent; use padding instead. */
 }
 #resume li{
-	text-indent: 3em;
+  padding-left: 2em;
+  text-indent: -2em; /* Using a negative indent with padding makes for a hanging-indent effect */
 }
 #resume h2{
-	text-indent: 1em;
 }
 @media (min-width: 50em){
 body{
 	font-family: sans-serif;
 }
 nav{
-	width:33%;
-	float: left;
-	padding: 0em 50em 0em 0em;
+	/* No need to float your nav; it shows up where it should in normal source order. Actually, no styles needed here at all. Don't needlessly make life harder for yourself!*/
 	}
 #profilepic{
 	float:left;
